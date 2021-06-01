@@ -28,7 +28,7 @@ public class RecipeCard {
     }
 
     String getTitle() {
-        return recipe.getTitle();
+        return " "+recipe.getTitle();
     }
 
     String getImageURL() {
